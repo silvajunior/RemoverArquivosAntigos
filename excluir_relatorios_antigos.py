@@ -17,7 +17,7 @@ def removerRelatoriosAntigos():
                 print "Arquivo removido: ",file
                 print "Data de criacao: ",dt
                 i=i+1
-                #os.remove(file)
+                os.remove(file)
     print i,"Arquivo(s) removido(s)."   
 
 removerRelatoriosAntigos()   
